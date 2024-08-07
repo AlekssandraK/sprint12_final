@@ -11,7 +11,7 @@ jobs:
       - name: Vet
         run: |
           go vet
-              test:
+    test:
     runs-on: ubuntu-latest
     container: golang:1.22
          
